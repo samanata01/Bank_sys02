@@ -23,6 +23,8 @@ namespace Assign_2
             emi = (int)((vamt * tenure) / ((5 + 0.9) * tenure - 1));
             Console.WriteLine("_____________________________________");
             Console.WriteLine("Loan summary:");
+            Console.WriteLine("Account holder name:" + name);
+            Console.WriteLine("Account number:" + acc);
             Console.WriteLine("Monthly EMI:" + emi);
             Console.WriteLine("Loan amount:" + vamt);
             Console.WriteLine("Total payable:" + ((emi * 12) - vamt));
