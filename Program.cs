@@ -8,9 +8,7 @@ namespace Assign_2
         protected int acc;
         protected string name;
         protected float balance;
-        public virtual void header(){
-            Console.WriteLine("\t\t\t Welcome to Bank module.");
-        }
+        
         public void getdata()
         {
             
@@ -81,6 +79,11 @@ namespace Assign_2
             else
                 Console.WriteLine("Account type: Saving Account");
             Console.WriteLine("Balance: " + balance);
+        }
+        publipublicc virtual void header(){
+
+            Console.WriteLine("\t\t\t Welcome to Bank module.");
+
         }
         public void display(int acc, float bal)
         {
