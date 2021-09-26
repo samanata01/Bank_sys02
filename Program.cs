@@ -70,7 +70,7 @@ namespace Assign_2
 
         }
 
-        public virtual void display() 
+        public void display() 
         {
             Console.WriteLine("Name:  " + name);
             Console.WriteLine("Account number: " + acc);
