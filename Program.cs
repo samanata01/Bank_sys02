@@ -2,6 +2,13 @@
 
 namespace Assign_2
 {
+    interface{
+        void getdata();
+        void deposit();
+        void withdrae();
+        void display();
+        void display(int a, float b);
+    }
     public class bank_sys
     {
         int choice;
